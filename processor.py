@@ -3,7 +3,7 @@ from chromadb.config import Settings
 import PyPDF2
 from docx import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
 from langchain_core.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain_openai import AzureChatOpenAI, AzureOpenAIEmbeddings
