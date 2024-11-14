@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-import api.config as config
+import config as config
 import json
 
 def main():

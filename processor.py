@@ -8,7 +8,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain_openai import AzureChatOpenAI, AzureOpenAIEmbeddings
 import hashlib
-import api.config as config
+import config as config
 import io
 import re
 import os
