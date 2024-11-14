@@ -27,4 +27,4 @@ SUPPORTED_FILES = [
 # FastAPI Configuration
 BACKEND_PORT = 8000
 BACKEND_HOST = "localhost"
-BACKEND_URL = "https://document-comparison-system.onrender.com/"
+BACKEND_URL = "https://dcs-btta.onrender.com"
