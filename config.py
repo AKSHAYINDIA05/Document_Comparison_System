@@ -27,4 +27,4 @@ SUPPORTED_FILES = [
 # FastAPI Configuration
 BACKEND_PORT = 8000
 BACKEND_HOST = "localhost"
-BACKEND_URL = f"http://{BACKEND_HOST}:{BACKEND_PORT}"
+BACKEND_URL = "https://document-comparison-system.onrender.com/"
