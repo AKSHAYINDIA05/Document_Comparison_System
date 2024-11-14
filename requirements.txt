@@ -9,4 +9,3 @@ langchain-openai
 chromadb
 pypdf2
 python-docx
-azure-openai
