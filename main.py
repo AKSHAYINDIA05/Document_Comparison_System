@@ -46,10 +46,7 @@ async def compare_documents(doc1_id: str, doc2_id: str, query: str = None):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+
 if __name__ == "__main__":
-    uvicorn.run(
-        "backend:app",
-        host=config.BACKEND_HOST,
-        port=config.BACKEND_PORT,
-        reload=True
-    )
+    import uvicorn
+    uvicorn.run("main:app", host="0.0.0.0", port=8000)
