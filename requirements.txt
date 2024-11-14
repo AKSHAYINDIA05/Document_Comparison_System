@@ -1,0 +1,12 @@
+streamlit
+fastapi
+uvicorn
+python-multipart
+requests
+python-dotenv
+langchain
+langchain-openai
+chromadb
+pypdf2
+python-docx
+azure-openai
