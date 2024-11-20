@@ -10,7 +10,7 @@ app = FastAPI()
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://document-comparison-system.onrender.com/"],
+    allow_origins=["https://dcs-btta.onrender.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
